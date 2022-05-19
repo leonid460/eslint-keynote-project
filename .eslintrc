@@ -1,0 +1,7 @@
+{
+  "extends": ["react-app"],
+  "rules": {
+    "arrow-parens": "error",
+    "default-case": "error"
+  }
+}
