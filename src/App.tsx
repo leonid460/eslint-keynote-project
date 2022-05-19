@@ -1,10 +1,11 @@
 import { GlobalStyles } from './GlobalStyles';
+import { Component } from './Component';
 
 export const App = () => {
   return (
-    <div>
+    <>
       <GlobalStyles />
-      hello
-    </div>
+      <Component />
+    </>
   );
 }
