@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.25",
-    "eslint": "^8.15.0"
+    "eslint": "^8.15.0",
+    "eslint-plugin-custom-rules": "file:custom-rules"
   }
 }

@@ -1,7 +1,9 @@
 {
   "extends": ["react-app"],
+  "plugins": ["eslint-plugin-custom-rules"],
   "rules": {
     "arrow-parens": "error",
-    "default-case": "error"
+    "default-case": "error",
+    "custom-rules/no-distinct-from-local-styled": "error"
   }
 }

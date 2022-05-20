@@ -1,5 +1,5 @@
-import { Container } from './styled';
+import * as Styled from './styled';
 
 export const Component = () => {
-  return <Container>hello</Container>
+  return <Styled.Container>hello</Styled.Container>
 };
