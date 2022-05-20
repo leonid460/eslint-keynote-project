@@ -4,6 +4,9 @@
   "rules": {
     "arrow-parens": "error",
     "default-case": "error",
-    "custom-rules/no-distinct-from-local-styled": "error"
+    "custom-rules/no-distinct-from-local-styled": ["error", {
+      "styledFileName": "styled",
+      "namespaceName": "StyledComponents"
+    }]
   }
 }
